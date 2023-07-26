@@ -11,14 +11,21 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .maintitle {
-    margin-top: 15%;
+    margin-top: 13%;
     font-size: 60pt;
     text-shadow: -10px 10px 20px darkgray;
 }
 
 .title {
-    font-size: 60pt;
+    font-size: 50pt;
     text-shadow: -10px 10px 20px darkgray;
 }
 
@@ -43,13 +50,18 @@ body::-webkit-scrollbar {
     box-shadow: -10px 10px 20px darkgray;
 }
 
+.courseboxtitle {
+  font-size: 30pt;
+  color: rgb(96, 0, 151);  
+}
+
 .coursesbox {
     background: #ffa6f03b none repeat scroll 0 0;
     font-size: 20px;
     padding: 20px;
     margin-right: 10%;
     color: black;
-    font-size: 17pt;
+    font-size: 25pt;
     box-shadow: -10px 10px 20px darkgray;
 }
 
@@ -80,6 +92,7 @@ body::-webkit-scrollbar {
     margin-left: -18%;
     margin-top: -1%;
     align-items: center;
+
 }
 
 .navBarButton {
@@ -88,7 +101,29 @@ body::-webkit-scrollbar {
     font-size: 15pt;
     background-color: transparent;
     text-align: center;
+    margin: 12px;
 }
+
+.button {
+  border: none;
+  color: white;
+  font-size: 15pt;
+  background-color: rgb(96, 0, 151);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  border: none;
+  color: white;
+  font-size: 15pt;
+  background-color: rgb(136, 1, 214);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
 
 .navBarButton:hover {
     opacity: 0.7;
@@ -123,6 +158,7 @@ nav ul li {
     text-align: center;
     text-decoration: none;
     border-radius: 25%;
+    scale: 150%;
   }
   
   /* Add a hover effect if you want */
@@ -134,27 +170,37 @@ nav ul li {
   
   /* Facebook */
   .fa-facebook {
-    background: #3B5998;
+    background: rgb(96, 0, 151);
     color: white;
   }
   
   /* Twitter */
   .fa-instagram {
-    background: #ff7300;
+    background: rgb(96, 0, 151);
     color: white;
   }
 
   .fa-google {
-    background: #dd4b39;
+    background: rgb(96, 0, 151);
     color: white;
   }
 
   .fa-linkedin {
-    background: #007bb5;
+    background: rgb(96, 0, 151);
     color: white;
   }
 
   .fa-envelope {
-    background: #105e00;
+    background: rgb(96, 0, 151);
+    color: white;
+  }
+
+  .fa-whatsapp {
+    background: rgb(96, 0, 151);
+    color: white;
+  }
+
+  .fa-phone {
+    background: rgb(96, 0, 151);
     color: white;
   }
