@@ -119,11 +119,31 @@ a {
   border-radius: 5px;
 }
 
+.review_button {
+  border: none;
+  color: white;
+  font-size: 15pt;
+  background-color: rgb(0, 130, 251);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
 .button:hover {
   border: none;
   color: white;
   font-size: 15pt;
   background-color: rgb(136, 1, 214);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.review_button:hover {
+  border: none;
+  color: white;
+  font-size: 15pt;
+  background-color: rgb(107, 184, 255);
   text-align: center;
   padding: 15px;
   border-radius: 5px;
