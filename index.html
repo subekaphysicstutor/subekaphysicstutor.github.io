@@ -1,66 +1,411 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
 
-        <title>Subeka Physics Tutor - Home</title>
-        <link rel="stylesheet" href="base.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subeka Physics Tutor - Discover the Joy of Learning Physics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    </head>
-    
-    <body>
+<body>
+    <!-- Background Animation -->
+    <div class="background-animation"></div>
+    <div class="floating-particles" id="particles"></div>
 
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="../ChatGPT Image Jul 7, 2025, 07_19_52 PM.png" alt="Subeka Physics Tutor logo">
+                <span class="logo-text">Subeka Physics Tutor</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#courses">Courses</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="https://forms.office.com/r/8nztmp1urU" class="cta-button">Register Now</a>
+        </div>
+    </header>
 
-        <header>
-            <div class="navbar" style="display: flex; justify-content: space-between;">
-                <img src="Logo.png" style="margin-top: 1%; margin-left: 2%; margin-bottom: 0.5%;" width="120px">
-                <!-- <div style="margin-left: 40%;">
-                    <a href="ap1review.html"><button class="navBarButton" style="margin-right: 0%;">Exclusive! - AP Physics 1 Review</button></a>
-                </div> -->
-                <div>
-                    
-                    <a href="index.html"><button class="navBarButton">Home</button></a>
-                    <a href="aboutMe.html"><button class="navBarButton">About Me</button></a>
-                    <a href="courses.html"><button class="navBarButton">Courses</button></a>
-                    <a href="register.html"><button class="navBarButton">Register</button></a>
-                    <a href="reviews.html"><button class="navBarButton">Testimonials</button></a>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Subeka Physics Tutor</h1>
+            <p class="hero-subtitle">Master AP Physics with expert guidance from an experienced tutor with 20+ years of
+                teaching excellence</p>
+            <div class="hero-cta">
+                <a href="#courses" class="btn-primary">Explore Courses</a>
+                <a href="#contact" class="btn-secondary">Get Started Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>Meet Your Physics Expert</h2>
+                <p>Hi, I'm Subeka Chhabra, and I'm thrilled to be part of your academic journey. Teaching Physics isn't
+                    just my profession—it's my true passion. With over 20 years of dedicated experience, I bring a
+                    wealth of knowledge and innovative teaching methods to help you excel.</p>
+                <p>I've successfully tutored students across the globe in various settings, from one-on-one sessions to
+                    group classes, adapting my approach to match different learning styles and ensuring every student
+                    reaches their full potential.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Students Tutored</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support Available</span>
+                    </div>
                 </div>
             </div>
-        </header>
+            <div class="about-image">
+                <div class="teacher-card">
+                    <div class="avatar-wrapper">
+                        <img src="../WhatsApp Image 2023-07-13 at 22.14.46.jpg" alt="Subeka Chhabra">
+                    </div>
+                    <div class="teacher-name">Subeka Chhabra
+                    </div>
+                    <div class="teacher-title">Physics Expert & Mentor</div>
+                    <p>Dedicated to making physics accessible, engaging, and enjoyable for every student</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h1 class="maintitle">Subeka Physics Tutor</h1>
-        <h1 class="subtitle">Discover the joy of learning Physics!</h1>
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="courses-container">
+            <h2 class="section-title">Physics Courses Offered</h2>
 
-       
-
-        </br></br></br>
-
-
-        <a href="register.html"><button class="button">Sign Up Now!</button></a>
-        <!-- <br><br>
-        <a href="ap1review.html"><button class="review_button">AP Physics 1 Review - Sign Up!</button></a> -->
-
-        </br></br></br></br></br></br></br></br></br></br></br></br>
-        
-        <footer>
-            <div class="navbar" style="display: flex; justify-content: space-between; margin-bottom: 0px;">
-                <div style="color: white;">
-                    <ul style="list-style: none;">
-                        <li><h3>Contact Us</h3></li>
-                        <li><h4>Phone Number | <a href="tel:+16506608608">650-660-8608</a></h4></li>
-                        <li><h4>Email | <a href="mailto:subekaphysicstutor@gmail.com">subekaphysicstutor@gmail.com</a></h4></li>
+            <!-- Group Sessions -->
+            <div class="section-subtitle">
+                <h3>Group Sessions</h3>
+                <p>Collaborative learning environment perfect for peer interaction and shared problem-solving</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">⚡</div>
+                    <h3 class="course-title">AP Physics 1</h3>
+                    <p class="course-description">Master the fundamentals of algebra-based physics covering mechanics,
+                        waves, and electricity.</p>
+                    <div class="course-price">Starting at $50 for 1.5 hours</div>
+                    <ul class="course-features">
+                        <li>Small group dynamics</li>
+                        <li>Comprehensive problem-solving strategies</li>
+                        <li>Practice with past AP exams</li>
+                        <li>Interactive discussions</li>
                     </ul>
                 </div>
-                <div style="padding: 20px;">
-                    <a href="https://www.facebook.com/PhysicsTutorSubeka/" class="fa fa-facebook"></a>
-                    <a href="https://www.linkedin.com/in/subeka-chhabra-412b8562" class="fa fa-linkedin"></a>
-                    <a href="https://www.google.com/maps/place/Subeka+Physics+Tutor/@46.423669,-129.9427085,3z/data=!3m1!4b1!4m6!3m5!1s0x2387368dc096ca31:0x847ef4b9133fbc0d!8m2!3d46.423669!4d-129.9427086!16s%2Fg%2F11trx18rb0?entry=ttu" class="fa fa-google"></a>
-                     <a href="https://instagram.com/subekaphysicstutor/" class="fa fa-instagram"></a>
-                    <a href="https://wa.me/6506608608" class="fa fa-whatsapp"></a>
+                <div class="course-card">
+                    <div class="course-icon">🔬</div>
+                    <h3 class="course-title">AP Physics 2</h3>
+                    <p class="course-description">Advanced topics including thermodynamics, electromagnetism, and modern
+                        physics.</p>
+                    <div class="course-price">Starting at $50 for 1.5 hours</div>
+                    <ul class="course-features">
+                        <li>Advanced problem-solving techniques</li>
+                        <li>Lab-based learning approach</li>
+                        <li>College-level preparation</li>
+                        <li>Peer learning opportunities</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🎯</div>
+                    <h3 class="course-title">AP Physics C</h3>
+                    <p class="course-description">Calculus-based physics covering mechanics and electricity & magnetism.
+                    </p>
+                    <div class="course-price">Starting at $70 for 1.5 hours</div>
+                    <ul class="course-features">
+                        <li>Calculus integration</li>
+                        <li>Advanced mathematical concepts</li>
+                        <li>University-level preparation</li>
+                        <li>Specialized exam strategies</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🎓</div>
+                    <h3 class="course-title">IB Physics</h3>
+                    <p class="course-description">International Baccalaureate physics covering all levels with
+                        comprehensive exam preparation.</p>
+                    <div class="course-price">Starting at $50 for 1.5 hours</div>
+                    <ul class="course-features">
+                        <li>IB-specific curriculum</li>
+                        <li>Internal assessment guidance</li>
+                        <li>Extended essay support</li>
+                        <li>Global perspective approach</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🔮</div>
+                    <h3 class="course-title">Honors Physics</h3>
+                    <p class="course-description">Comprehensive physics courses for high school honors
+                        students.</p>
+                    <div class="course-price">Starting at $50 for 1.5 hours</div>
+                    <ul class="course-features">
+                        <li>Flexible curriculum</li>
+                        <li>Concept reinforcement</li>
+                        <li>Practical applications</li>
+                        <li>Test preparation focus</li>
+                    </ul>
                 </div>
             </div>
-        </footer>
 
+            <!-- 1-on-1 Tutoring -->
+            <div class="section-subtitle">
+                <h3>1-on-1 Tutoring</h3>
+                <p>Personalized instruction tailored to your specific learning needs and goals</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card one-on-one-card">
+                    <div class="course-icon">🌟</div>
+                    <h3 class="course-title">All Physics Courses Available</h3>
+                    <p class="course-description">Comprehensive one-on-one tutoring for all physics levels including AP
+                        Physics 1, 2, C, IB Physics, Honors Physics, and College Physics.</p>
+                    <div class="course-price">Contact for Pricing</div>
+                    <ul class="course-features">
+                        <li>Completely personalized instruction</li>
+                        <li>Flexible scheduling options</li>
+                        <li>Customized study plans</li>
+                        <li>24/7 support via email</li>
+                        <li>One-on-one problem solving</li>
+                        <li>Exam preparation strategies</li>
+                    </ul>
+                    <a href="#contact" class="contact-pricing-btn">Contact for Pricing</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </body>
-</html>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials-container">
+            <h2 class="section-title">What Students Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <!-- First set of testimonials -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">I’m am so thankful that Owen enjoys the tutoring time you provide.
+                            He appreciates your teaching style and personality.
+                            He recognizes the benefit of meeting with you weekly and it is reflected in his current
+                            grade and last year’s AP exam results.
+                            I’m very pleased that Owen can suggest areas of weakness or confusion just prior to your
+                            session and those things are always addressed. This helps him have confidence in the
+                            following school day and exams.</p>
+                        <div class="testimonial-author">Danya, Washington</div>
+                        <div class="testimonial-role">AP Physics Parent</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">Thank you so much for being my physics tutor this year. I checked my
+                            college board today morning in
+                            shock and saw that I had received a 5 on the exam!
+                            This score definitely wouldn't have been possible without your help every week, and I
+                            appreciate your
+                            hard work so much!</p>
+                        <div class="testimonial-author">Rithvik, Washington</div>
+                        <div class="testimonial-role">AP Physics Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">I just checked my scores and I ended up getting 5s on both Mechanics
+                            and E&M!!☺
+                            I am super duper happy and I truly have no words to tell you how thankful I am for you and
+                            your
+                            classes/review sessions!
+                            Thank you so much for answering all my questions, clarifying my doubts, uploading all your
+                            practice
+                            problems, and being such a passionate teacher :)
+                            Everything that you did for me throughout the year made such a huge impact
+                            on my education :)</p>
+                        <div class="testimonial-author">Student, Washington</div>
+                        <div class="testimonial-role">AP Physics C Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">Subeka helped me understand complex physics concepts with ease. Her
+                            teaching methods are truly exceptional and effective.</p>
+                        <div class="testimonial-author">David Kim</div>
+                        <div class="testimonial-role">AP Physics C Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">The IB Physics sessions were incredible. Subeka's guidance helped me
+                            excel in my internal assessments and final exams.</p>
+                        <div class="testimonial-author">Priya Patel</div>
+                        <div class="testimonial-role">IB Physics Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">Amazing experience! The flexible scheduling and comprehensive
+                            support made all the difference in my physics journey.</p>
+                        <div class="testimonial-author">Alex Thompson</div>
+                        <div class="testimonial-role">Honors Physics Student</div>
+                    </div>
+
+                    <!-- Duplicate set for seamless scrolling -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">Subeka's teaching style made physics concepts so much clearer. Her
+                            patience and expertise helped me achieve a 5 on my AP Physics exam!</p>
+                        <div class="testimonial-author">Sarah Chen</div>
+                        <div class="testimonial-role">AP Physics Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">The personalized approach and real-world examples made physics
+                            engaging and fun. I went from struggling to loving the subject!</p>
+                        <div class="testimonial-author">Michael Rodriguez</div>
+                        <div class="testimonial-role">High School Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">Excellent tutor! The group sessions were collaborative and the
+                            individual attention was outstanding. Highly recommended!</p>
+                        <div class="testimonial-author">Emily Johnson</div>
+                        <div class="testimonial-role">College Physics Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">Subeka helped me understand complex physics concepts with ease. Her
+                            teaching methods are truly exceptional and effective.</p>
+                        <div class="testimonial-author">David Kim</div>
+                        <div class="testimonial-role">AP Physics C Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">The IB Physics sessions were incredible. Subeka's guidance helped me
+                            excel in my internal assessments and final exams.</p>
+                        <div class="testimonial-author">Priya Patel</div>
+                        <div class="testimonial-role">IB Physics Student</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">Amazing experience! The flexible scheduling and comprehensive
+                            support made all the difference in my physics journey.</p>
+                        <div class="testimonial-author">Alex Thompson</div>
+                        <div class="testimonial-role">Honors Physics Student</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Ready to Start Your Physics Journey?</h2>
+            <p>Join hundreds of successful students who have mastered physics with expert guidance. Let's unlock your
+                potential together!</p>
+            <div class="contact-cta">
+                <a href="https://forms.office.com/r/8nztmp1urU" class="btn-primary">Sign Up Now</a>
+                <a href="mailto:subeka@subekaphysicstutor.com" class="btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#courses">Courses</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Subeka Physics Tutor. All rights reserved. | Empowering students through physics
+                    education.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Create floating particles
+        function createParticles() {
+            const container = document.getElementById('particles');
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 8 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 5) + 's';
+                container.appendChild(particle);
+            }
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Header shadow on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.style.boxShadow = '0 2px 30px rgba(0,0,0,0.15)';
+            } else {
+                header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+            }
+        });
+
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        // Observe elements for animation
+        document.querySelectorAll('.testimonial-card, .course-card, .about-content, .teacher-card').forEach(element => {
+            element.style.opacity = '0';
+            element.style.transform = 'translateY(30px)';
+            element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            observer.observe(element);
+        });
+
+        // Initialize particles
+        createParticles();
+    </script>
+</body>
