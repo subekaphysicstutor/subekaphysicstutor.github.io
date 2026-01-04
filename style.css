@@ -83,6 +83,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  gap: 2rem;
 }
 
 .logo {
@@ -122,6 +123,8 @@ body {
   list-style: none;
   gap: 2rem;
   align-items: center;
+  flex: 1;
+  justify-content: center;
 }
 
 .nav-menu a {
@@ -151,10 +154,14 @@ body {
   width: 100%;
 }
 
-.nav-menu .nav-cta {
+.nav-menu a.nav-cta {
   padding: 0.6rem 1.3rem;
   font-size: 0.95rem;
   box-shadow: 0 5px 18px rgba(102, 126, 234, 0.35);
+  color: white;
+}
+
+.nav-menu a.nav-cta:visited {
   color: white;
 }
 
